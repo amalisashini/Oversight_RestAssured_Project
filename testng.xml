@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Oversight Training/OversightRestAssuredPro">
+        <classes>
+            <class name="consumerTest.TestClasses.Authentication"/>
+            <class name="consumerTest.TestClasses.AccountNumberTest"/>
+            <class name="consumerTest.TestClasses.BillingSpaceTest"/>
+            <class name="consumerTest.TestClasses.SpaceTest"/>
+            <class name="consumerTest.TestClasses.DevicesTest"/>
+            <class name="consumerTest.TestClasses.SmartPlugTest"/>
+            <class name="consumerTest.TestClasses.AcControllerTest"/>
+            <class name="consumerTest.TestClasses.ScheduleTest"/>
+        </classes>
+    </test>
+</suite>
